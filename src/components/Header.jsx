@@ -8,8 +8,8 @@ const Header = () => {
         <h1 className="text-center">MG-Brain</h1>
         <nav className="d-flex justify-content-center">
             <a href="/" className="text-white mx-3">Inicio</a>
-            <a href="/test1" className="text-white mx-3">Test 1</a>
-            <a href="/test2" className="text-white mx-3">Test 2</a>
+            <a href="/ipv" className="text-white mx-3">IPV</a>
+            <a href="/hexaco" className="text-white mx-3">HEXACO</a>
         </nav>
         </div>
     </header>

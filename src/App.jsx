@@ -3,8 +3,8 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
 import Login from './pages/Login';
-import Test1 from './pages/Test1';
-import Test2 from './pages/Test2';
+import Ipv from './pages/Ipv';
+import Hexaco from './pages/Hexaco';
 
 const App = () => {
   return (
@@ -12,8 +12,8 @@ const App = () => {
       <Layout>
         <Routes>
           <Route path="/" element={<Login />} />
-          <Route path="/test1" element={<Test1 />} />
-          <Route path="/test2" element={<Test2 />} />
+          <Route path="/ipv" element={<Ipv />} />
+          <Route path="/hexaco" element={<Hexaco />} />
         </Routes>
       </Layout>
     </Router>
