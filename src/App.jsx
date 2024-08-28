@@ -5,6 +5,7 @@ import Layout from './components/Layout';
 import Login from './pages/Login';
 import Ipv from './pages/Ipv';
 import Hexaco from './pages/Hexaco';
+import './index.css'
 
 const App = () => {
   return (

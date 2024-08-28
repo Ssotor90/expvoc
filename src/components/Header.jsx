@@ -3,16 +3,16 @@ import React from 'react';
 
 const Header = () => {
     return (
-    <header className="bg-dark text-white p-3">
-        <div className="container">
-        <h1 className="text-center">MG-Brain</h1>
-        <nav className="d-flex justify-content-center">
-            <a href="/" className="text-white mx-3">Inicio</a>
-            <a href="/ipv" className="text-white mx-3">IPV</a>
-            <a href="/hexaco" className="text-white mx-3">HEXACO</a>
-        </nav>
-        </div>
-    </header>
+        <header className="bg-gray-900 text-white p-3">
+            <div className="container mx-auto">
+                <h1 className="text-center text-xl">MG-Brain</h1>
+                <nav className="flex justify-center mt-3">
+                    <a href="/" className="text-white mx-3 hover:underline">Inicio</a>
+                    <a href="/ipv" className="text-white mx-3 hover:underline">IPV</a>
+                    <a href="/hexaco" className="text-white mx-3 hover:underline">HEXACO</a>
+                </nav>
+            </div>
+        </header>
     );
 };
 
