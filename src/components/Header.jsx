@@ -2,7 +2,7 @@
     import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 
     const navigation = [
-    { name: 'Inicio', href: '/', current: true },
+    { name: 'Inicio', href: '/', current: false },
     { name: 'Equipo', href: '#', current: false },
     { name: 'HEXACO', href: '/hexaco', current: false },
     { name: 'IPV', href: '/ipv', current: false },
@@ -81,17 +81,17 @@
                 >
                     <MenuItem>
                     <a href="#" className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100">
-                        Your Profile
+                        Mi perfil
                     </a>
                     </MenuItem>
                     <MenuItem>
                     <a href="#" className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100">
-                        Settings
+                        Configuración
                     </a>
                     </MenuItem>
                     <MenuItem>
                     <a href="#" className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100">
-                        Sign out
+                        Cerrar sesión
                     </a>
                     </MenuItem>
                 </MenuItems>
